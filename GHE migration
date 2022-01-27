@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-27T17:01:36.137Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="e-GnNB8b3doFTjmSgrwf" version="16.4.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-27T17:24:19.465Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="GLB-VSNMCunB8dpLHKCT" version="16.4.7" type="github">
   <diagram id="-NfXYNIv0SM8Xxy9jRYv" name="Page-1">
     <mxGraphModel dx="1378" dy="792" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -24,6 +24,90 @@
         </mxCell>
         <mxCell id="nTJSRx4QyXaKP02HN9Qy-12" value="After Migration" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="655" y="260" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="nTJSRx4QyXaKP02HN9Qy-13" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="140" y="310" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nTJSRx4QyXaKP02HN9Qy-14" value="Is CCI check removed" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="135" y="400" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="nTJSRx4QyXaKP02HN9Qy-15" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;strokeWidth=2;shape=mxgraph.arrows2.arrow;dy=1;dx=15;notch=0;direction=west;" vertex="1" parent="1">
+          <mxGeometry x="100" y="443" width="35" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="nTJSRx4QyXaKP02HN9Qy-17" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;strokeWidth=2;shape=mxgraph.arrows2.arrow;dy=1;dx=15;notch=12;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="177.5" y="350" width="15" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nTJSRx4QyXaKP02HN9Qy-18" value="Disable CCI" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="430" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nTJSRx4QyXaKP02HN9Qy-21" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;strokeWidth=2;shape=mxgraph.arrows2.arrow;dy=1;dx=15;notch=12;direction=east;" vertex="1" parent="1">
+          <mxGeometry x="60" y="377.5" width="120" height="12.5" as="geometry" />
+        </mxCell>
+        <mxCell id="nTJSRx4QyXaKP02HN9Qy-25" value="" style="endArrow=none;html=1;rounded=0;strokeColor=default;entryX=0;entryY=0;entryDx=0;entryDy=6.25;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="nTJSRx4QyXaKP02HN9Qy-18" target="nTJSRx4QyXaKP02HN9Qy-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="50" y="440" as="sourcePoint" />
+            <mxPoint x="100" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nTJSRx4QyXaKP02HN9Qy-26" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;strokeWidth=2;shape=mxgraph.arrows2.arrow;dy=1;dx=15;notch=12;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="178.5" y="500" width="15" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nTJSRx4QyXaKP02HN9Qy-28" value="Migrate all modules repo to GHP" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="145" y="550" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nTJSRx4QyXaKP02HN9Qy-31" value="Merge/close open PRs" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="146" y="652" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nTJSRx4QyXaKP02HN9Qy-32" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;strokeWidth=2;shape=mxgraph.arrows2.arrow;dy=1;dx=15;notch=18;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="177.5" y="600" width="15" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nTJSRx4QyXaKP02HN9Qy-35" value="Diable Atlantis hook" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="146" y="754" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nTJSRx4QyXaKP02HN9Qy-36" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;strokeWidth=2;shape=mxgraph.arrows2.arrow;dy=1;dx=15;notch=18;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="177.5" y="702" width="15" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nTJSRx4QyXaKP02HN9Qy-37" value="Lock cxe-infra repo" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="145" y="854" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nTJSRx4QyXaKP02HN9Qy-38" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;strokeWidth=2;shape=mxgraph.arrows2.arrow;dy=1;dx=15;notch=18;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="178.5" y="804" width="15" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nTJSRx4QyXaKP02HN9Qy-39" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;strokeWidth=2;shape=mxgraph.arrows2.arrow;dy=1;dx=15;notch=0;direction=east;" vertex="1" parent="1">
+          <mxGeometry x="225" y="867.75" width="135" height="22.5" as="geometry" />
+        </mxCell>
+        <mxCell id="nTJSRx4QyXaKP02HN9Qy-40" value="Inform GHP team to start the migration" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="360" y="854" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nTJSRx4QyXaKP02HN9Qy-41" value="Validate new repo in GHP for access and files" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="350" y="310" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nTJSRx4QyXaKP02HN9Qy-42" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;strokeWidth=2;shape=mxgraph.arrows2.arrow;dy=1;dx=15;notch=0;direction=north;" vertex="1" parent="1">
+          <mxGeometry x="403" y="361" width="22.5" height="489" as="geometry" />
+        </mxCell>
+        <mxCell id="nTJSRx4QyXaKP02HN9Qy-43" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;strokeWidth=2;shape=mxgraph.arrows2.arrow;dy=1;dx=15;notch=0;direction=east;" vertex="1" parent="1">
+          <mxGeometry x="480" y="323.75" width="180" height="22.5" as="geometry" />
+        </mxCell>
+        <mxCell id="nTJSRx4QyXaKP02HN9Qy-44" value="Enable Atlantis hook" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="660" y="310" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nTJSRx4QyXaKP02HN9Qy-45" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;strokeWidth=2;shape=mxgraph.arrows2.arrow;dy=1;dx=15;notch=18;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="690" y="361" width="15" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nTJSRx4QyXaKP02HN9Qy-46" value="Enable CCI check" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="657.5" y="411" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nTJSRx4QyXaKP02HN9Qy-47" value="Raise dummy PR to an existing file to validate both check are going through" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="620" y="512" width="160" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="nTJSRx4QyXaKP02HN9Qy-48" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;strokeWidth=2;shape=mxgraph.arrows2.arrow;dy=1;dx=15;notch=18;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="690" y="461" width="15" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nTJSRx4QyXaKP02HN9Qy-49" value="Raise dummy PR to add new file to validate both check are going through" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="620" y="642" width="160" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="nTJSRx4QyXaKP02HN9Qy-50" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;strokeWidth=2;shape=mxgraph.arrows2.arrow;dy=1;dx=15;notch=18;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="690" y="590" width="15" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
