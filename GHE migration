@@ -1,19 +1,22 @@
-<mxfile host="app.diagrams.net" modified="2022-01-27T17:24:19.465Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="GLB-VSNMCunB8dpLHKCT" version="16.4.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-27T20:09:35.148Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="HIwdt1dWAPhoKW0b7B5a" version="16.4.7" type="github">
   <diagram id="-NfXYNIv0SM8Xxy9jRYv" name="Page-1">
     <mxGraphModel dx="1378" dy="792" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="nTJSRx4QyXaKP02HN9Qy-51" value="" style="whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=6;" vertex="1" parent="1">
+          <mxGeometry x="10" y="230" width="780" height="780" as="geometry" />
+        </mxCell>
         <mxCell id="nTJSRx4QyXaKP02HN9Qy-8" value="" style="endArrow=none;html=1;rounded=0;strokeColor=default;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="280" y="1062" as="sourcePoint" />
-            <mxPoint x="280" y="280" as="targetPoint" />
+            <mxPoint x="280" y="1016" as="sourcePoint" />
+            <mxPoint x="280" y="234" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="nTJSRx4QyXaKP02HN9Qy-9" value="" style="endArrow=none;html=1;rounded=0;strokeColor=default;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="560" y="1062" as="sourcePoint" />
-            <mxPoint x="560" y="280" as="targetPoint" />
+            <mxPoint x="560" y="1016" as="sourcePoint" />
+            <mxPoint x="560" y="234" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="nTJSRx4QyXaKP02HN9Qy-10" value="Before Migration" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
@@ -97,13 +100,13 @@
         <mxCell id="nTJSRx4QyXaKP02HN9Qy-46" value="Enable CCI check" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="657.5" y="411" width="80" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="nTJSRx4QyXaKP02HN9Qy-47" value="Raise dummy PR to an existing file to validate both check are going through" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="nTJSRx4QyXaKP02HN9Qy-47" value="Raise dummy PR to an existing file to validate both check are going through and no change in Atlantis plan" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="620" y="512" width="160" height="78" as="geometry" />
         </mxCell>
         <mxCell id="nTJSRx4QyXaKP02HN9Qy-48" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;strokeWidth=2;shape=mxgraph.arrows2.arrow;dy=1;dx=15;notch=18;direction=south;" vertex="1" parent="1">
           <mxGeometry x="690" y="461" width="15" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="nTJSRx4QyXaKP02HN9Qy-49" value="Raise dummy PR to add new file to validate both check are going through" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="nTJSRx4QyXaKP02HN9Qy-49" value="Raise dummy PR to add new file to validate both check are going through and perform Atlantis plan and apply" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="620" y="642" width="160" height="78" as="geometry" />
         </mxCell>
         <mxCell id="nTJSRx4QyXaKP02HN9Qy-50" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;strokeWidth=2;shape=mxgraph.arrows2.arrow;dy=1;dx=15;notch=18;direction=south;" vertex="1" parent="1">
